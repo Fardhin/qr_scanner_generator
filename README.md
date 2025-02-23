@@ -1,16 +1,30 @@
-# qr_scanner_generator
+# 🔳 QR Scanner & Generator 📱
 
-A new Flutter project.
+A Flutter app that allows users to **generate** and **scan QR codes** using `mobile_scanner`. 🚀
 
-## Getting Started
+## 📸 Features
+✅ **QR Code Generation**: Enter text to generate a QR code.  
+✅ **QR Code Scanning**: Scan QR codes using the camera.  
+✅ **Flutter & Dart**: Built using Flutter with `mobile_scanner`.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Installation
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/your-username/qr_scanner_generator.git
+   cd qr_scanner_generator
+## Install dependencies
+```sh
+flutter pub get
+```
+Run the app:
+```sh
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Dependencies
+Flutter SDK
+mobile_scanner (for QR scanning)
+path_provider (for saving QR data)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔗 License
+This project is open-source and available under the MIT License.
